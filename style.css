@@ -1,0 +1,83 @@
+html {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 110%;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dialog-area {
+    padding-top: 10px;
+    border: 2px solid black;
+    width: 30vw;
+    height: 40vh;
+    position: relative;
+    left: 35vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    background-color: rgb(214, 235, 253);
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+.dialog-area::-webkit-scrollbar {
+    width: 15px;
+}
+
+.dialog-area::-webkit-scrollbar-thumb {
+    border-style: solid;
+    border-color: transparent;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    background-color: #8070d4;
+    background-clip: content-box;
+    border-radius: 100px;
+}
+
+input {
+    height: 10vh;
+    width: 15%; 
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(119, 235, 243);
+    border-color: aqua;
+}
+
+p {
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    background-color: rgba(240, 255, 255, 0.466);
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.dialog-element-machine {
+    text-align: left;
+}
+
+.dialog-element-user {
+    text-align: right;
+}
+
+.reset-button {
+    border: 2px solid rgb(93, 97, 100);
+    border-radius: 5px;
+    background-color: rgba(162, 173, 173, 0.466);
+    width: 90%;
+    height: 4vh;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    box-shadow: 1px 2px 1px 0px #000000;
+}
